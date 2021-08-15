@@ -6,7 +6,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 token:
-  expriation_time: 8640000000
+  expiration_time: 8640000000
   secret: user_token
 
 gateway:
