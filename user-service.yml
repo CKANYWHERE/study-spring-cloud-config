@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: '{cipher}68e2ceba1dbf2bc08cb68ce7dfda263c6cc548c8c335308645b55eb8b1cad97dd75b7972ca73261892e7c7fb9a7f9188a5cd65db3a233580eb0bdc805a437cd0dae6810c5ec919f3ede4d9312cee66879a7bc85f91c06c251ed8766a892cffb0'
+    username: '{cipher}52e0f81434de857478db386a4f1ffeffcdbac83c491719baccff3c05b6088c95'
+    password: '{cipher}52e0f81434de857478db386a4f1ffeffcdbac83c491719baccff3c05b6088c95'
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+token:
+  expriation_time: 8640000000
+  secret: user_token
+
+gateway:
+  ip: 127.0.0.1
